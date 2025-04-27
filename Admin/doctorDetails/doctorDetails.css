@@ -1,0 +1,44 @@
+body{
+    min-height: 100vh;
+    height: auto;
+}
+.manage-form{
+    display: flex;
+    padding: 30px ;
+    margin: 100px 200px;
+    border-color: black;
+    background-color: gray;
+}
+
+.manage-form table{
+    margin-top: -100px;
+    padding-top: 0px;
+}
+
+.manage-form label{
+    margin-right: 30px;
+    font-weight: bolder;
+}
+
+.btn{
+    width: 75px;
+    margin-right: 25px;
+    margin-top: 25px;
+    background-color: aliceblue;
+}
+
+.btn:hover{
+    background-color: green;
+}
+
+.manage-form .text{
+    text-align: left;
+    width: 450px;
+    height: 40px;
+    background: rgba(255, 255, 255, 0.568);
+    border-radius: 5px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    border: none;
+}
+
